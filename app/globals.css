@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: roboto;
+  src: url(./assets/fonts/RobotoMono.ttf);
+}
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.content {
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  margin: auto;
+}
